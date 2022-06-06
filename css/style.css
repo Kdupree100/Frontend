@@ -1,0 +1,85 @@
+
+
+#navbar > * {
+    text-decoration: none;
+    font-size: x-large;
+    color: var(--sixth);
+    display: inline-block;
+}
+
+#navbar > *:hover {
+    color: var(--third)
+} */
+ .form{
+   
+    position: fixed;
+    padding: 4rem;
+    border: 4px solid rgb(255, 255, 0);
+    background-color : rgba(255, 128, 0, 0.856);
+    border-radius: 10%;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    font-family: "Roboto", sans-serif;  
+    display: flex;
+     flex-flow: column wrap; 
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKCTBn1vJGSa6258NawIpwldKuGsLo3ZP39A&usqp=CAU");
+     
+     background-size: 5in;
+}
+.formDarkMode{
+    background-image: linear-gradient(blue,rgb(135, 152, 235));
+}
+body {
+    background-image: linear-gradient(rgb(29,79,142), rgb(0,58,106));
+
+    
+    height: 300px;
+    width: 400px; 
+    background-size: 10in;
+    background-position: center;      
+}
+button{
+    background-color: green;
+    cursor: pointer;
+}
+.form > * > Input{
+    margin-top: 1rem;
+
+}
+
+
+    .loginform {
+    
+     display: flex;
+     -ms-flex-align: center;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    
+    background-color: rgb(245, 220, 220);
+    opacity: inherit;
+        
+      }
+
+         
+
+          
+.form > nav {
+    padding-top: 10px;
+    font-size: small;
+
+}
+
+.registrationform{
+    position:absolute;
+    background-color: rgba(73, 226, 43, 0.849);
+    padding:  30px;
+    border: 2px solid rgb(255, 47, 227);
+    top: 30%;
+    left: 35%;
+    translate: (-50, -50%);
+    
+     background-image: url("https://www.bing.com/th?id=ABT7FC808DEE72F44CC35D9FADDC1841B0BA5C3545424A9709480576BFEC546FFBB&w=608&h=200&c=2&rs=1&o=6&dpr=1.5&pid=SANGAM");
+     
+} 
+ 
